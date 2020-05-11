@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
+</head>
+<style>
+    * {
+        font-family: Poppins; 
+    }
+  .navbar-nav{
+      position: relative;
+      top: 20px;
+  }
+  .num{
+      position: relative;left: 50%;
+      bottom: 25px;
+  }
+  .navbar-nav > li{
+  padding-left:5px;
+  padding-right:5px;
+  margin-left:5px;
+  margin-right:5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.navbar-brand {
+    position: relative;
+    left: 90px;
+}
+.carousel-caption{
+    
+    font-size: x-large;
+    font-family: Poppins;
+    color: black;
+   float: left;
+   
+}
+.nav-item >a:active {
+  background-color: red;
+}
+</style>
+<body>
+    <header>
+        
+        <nav class="navbar navbar-expand-md bg-light navbar-light">
+        <!--brand-->
+        
+            <a class="navbar-brand display-1" href="#" >
+            <img src="Red-Truck-Removals-Storage.png" >
+            </a>
+          
+       <!--side button-->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="num">
+            <i class="material-icons" style="font-size:30px; color:red;">call</i><font style= " font-size: x-large; " ><b>1300 12 33 99</b></font>
+          
+            </div>
+        <!--navbar link-->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item  ">
+                  <a class="nav-link text-dark text-uppercase  border-right 1px solid dark" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-dark text-uppercase  border-right 1px solid dark" href="#">removals</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark text-uppercase  border-right 1px solid dark" href="#">strong</a>
+                  </li>
+                  <li class="nav-item ">
+                    <a class="nav-link text-dark text-uppercase  border-right 1px solid dark" href="#">sensitive freight</a>
+                  </li>
+                  <li class="nav-item ">
+                    <a class="nav-link text-dark text-uppercase  border-right 1px solid dark" href="#">tips</a>
+                  </li>
+                  <li class="nav-item ">
+                    <a class="nav-link text-dark text-uppercase  border-right 1px solid dark" href="#">contact us</a>
+                  </li>
+        
+                  <i class="material-icons">search</i>
+              </ul>
+            </div>     
+          </nav>
+          <!--cursoul-->
+          <div id="demo" class="carousel slide" data-ride="carousel">
+        
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+               
+              <li data-target="#demo" data-slide-to="0" class="active"></li>
+              <li data-target="#demo" data-slide-to="1"></li>
+              <li data-target="#demo" data-slide-to="2"></li>
+              <li data-target="#demo" data-slide-to="3"></li>
+
+            </ul>
+          
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="Banner-Couple-Unpacking.jpg" width="100%" height="517px" >
+                <div class="carousel-caption  align-top">
+                    <b><h1>Helpfull Packing Hint</h1></b>
+                    <p>Hate Packing? Don't worry Our handy packing tips have you covered</p>
+                    <button type="button" class="btn btn-danger">CHECK OUT OUR GUIDES</button>
+                  </div>
+                      
+                      
+                
+                
+              </div>
+              <div class="carousel-item">
+                <img src="Banner-Free-Quote.jpg" width="100%" height="517px">
+                <div class="carousel-caption">
+                    <h1>Helpfull Packing Hints</h1>
+                    <p>Hate Packing? Don't worry Our handy packing tips have you covered</p>
+                    <button type="button" class="btn btn-danger">CHECK OUT OUR GUIDES</button>
+                  </div>
+                
+              </div>
+              <div class="carousel-item">
+                <img src="Banner-Moving-Soon.jpg" width="100%" height="517px">
+                <div class="carousel-caption">
+                    <h1>Helpfull Packing Hints</h1>
+                    <p>Hate Packing? Don't worry Our handy packing tips have you covered</p>
+                    <button type="button" class="btn btn-danger">CHECK OUT OUR GUIDES</button>
+                  </div>
+                
+              </div>
+              <div class="carousel-item">
+                <img src="Banner-Red-Truck-Difference.jpg" width="100%" height="517px">
+                <div class="carousel-caption">
+                    <h1>Helpfull Packing Hint</h1>
+                    <p>Hate Packing? Don't worry Our handy packing tips have you covered</p>
+                    <button type="button" class="btn btn-danger">CHECK OUT OUR GUIDES</button>
+                  </div>
+                
+              </div>
+            </div>
+          
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+          
+          </div>
+        </header>
+
+        <section>
+
+            <div class="bg-light text-dark pb-5">
+           <div class="container mb-5">
+               <div class="row">
+                   <div class="col-lg-4 col-md-4 col-sm-4 col-12">
+                       <!-- Button to Open the Modal -->
+<button type="button" class="btn btn-primary rounded" data-toggle="modal" data-target="#myModal">
+    <i class='fas fa-ambulance' style='font-size:30px;color:white'></i>
+  </button>
+  
+  <!-- The Modal -->
+  <div class="modal" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+  
+        <!-- Modal Header -->
+        <div class="modal-header">
+            <div class="card" style="width:500px">
+                <img class="card-img-top" src="Banner-Red-Truck-Difference.jpg">
+                <div class="card-body">
+                  
+                  <p class="card-text">With so many removal companies operating today, it's important that you
+                       and your belongings are treated with care.</p>
+                  <a href="#" class="btn btn-primary">Find out more</a>
+                  <h4 class="card-footer">Why we Use red truck</h4>
+                </div>
+              </div>
+  
+      </div>
+    </div>
+  </div>   
+  </div>
+                   </div>
+                       
+                   
+
+                   <div class="col-lg-4 col-md-4 col-sm-4 col-12">
+                    <!-- Button to Open the Modal -->
+<button type="button" class="btn btn-primary rounded" data-toggle="modal" data-target="#myModal">
+    <i class='fas fa-ambulance' style='font-size:30px;color:white'></i>
+</button>
+
+<!-- The Modal -->
+<div class="modal" id="myModal">
+ <div class="modal-dialog">
+   <div class="modal-content">
+
+     <!-- Modal Header -->
+     <div class="modal-header">
+         <div class="card" style="width:500px">
+             <img class="card-img-top" src="Banner-Moving-Soon.jpg">
+             <div class="card-body">
+               
+               <p class="card-text">With so many removal companies operating today, it's important that you
+                    and your belongings are treated with care.</p>
+               <a href="#" class="btn btn-primary">Find out more</a>
+               <h4 class="card-footer">Why we Use red truck</h4>
+             </div>
+           </div>
+           </div>
+
+   </div>
+ </div>
+</div>   
+                    
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-12">
+                <!-- Button to Open the Modal -->
+<button type="button" class="btn btn-danger" data-toggle="modal" data-target="#myModal">
+REQUEST A QUOTE
+</button>
+<button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal">
+    ARRANG 
+    </button>
+    
+
+</div>
+               </div>
+           </div>
+           </div>
+        </section>
+<!--1st section-->
+<!section>
+<div class="container-fluid text-center mt-5">
+    <h1>Our specialised services</h1>
+    <div id="demo1" class="carousel slide" data-ride="carousel">
+    <ul class="carousel-indicators">
+               
+        <li data-target="#demo1" data-slide-to="0" class="active"></li>
+        <li data-target="#demo1" data-slide-to="1"></li>
+        <li data-target="#demo1" data-slide-to="2"></li>
+        <li data-target="#demo1" data-slide-to="3"></li>
+
+      </ul>
+      <div class="carousel-inner">
+        <div class="carousel-item active ">
+            <img src="685387.svg" height="50px" width="50px">
+          <h2>Packing</h2>
+          <p>Love it or Hate it,Packing is most important part ogf your move. Our team are fully train in wrapping
+              delicate item to  insure a safe transit.
+          </p>
+          <button type="button" class="btn btn-outline-secondary mb-5">READ MORE</button>
+        
+          
+        </div>
+
+        <div class="carousel-item ">
+            <img src="685387.svg" height="50px" width="50px">
+          <h2>Storage</h2>
+          <p>Love it or Hate it,Packing is most important part ogf your move. Our team are fully train in wrapping
+              delicate item to  insure a safe transit.
+          </p>
+          <button type="button" class="btn btn-outline-secondary mb-5">READ MORE</button>
+        
+          
+        </div>
+
+        <div class="carousel-item ">
+            <img src="685387.svg" height="50px" width="50px">
+          <h2>Removals</h2>
+          <p>Love it or Hate it,Packing is most important part ogf your move. Our team are fully train in wrapping
+              delicate item to  insure a safe transit.
+          </p>
+          <button type="button" class="btn btn-outline-secondary mb-5">READ MORE</button>
+        
+          
+        </div>
+        <div class="carousel-item  ">
+            <img src="685387.svg" height="50px" width="50px">
+          <h2>Sensitive Fright</h2>
+          <p>Love it or Hate it,Packing is most important part ogf your move. Our team are fully train in wrapping
+              delicate item to  insure a safe transit.
+          </p>
+          <button type="button" class="btn btn-outline-secondary mb-5">READ MORE</button>
+        
+          
+        </div>
+        </div>
+        
+</div>
+<a class="carousel-control-prev" href="#demo1" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo1" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+</div>
+
+
+    
+</section>
+<!--next section-->
+<section>
+    
+<div class="px-5 py-5  bg-light text-dark">
+<div class="container-fluid text-center mt-5">
+    
+    <h1 class="mt-5 mb-5">Hear from our clients</h1>
+
+           <p>Please extend my thanks again to the gorgeous men Aaron and the team for the effort they took in our move. You know we have 
+        an awful time with a previous removalist so I was anxious from the get go.
+        
+        They were meticulous and patient with all our things and were extremely organised. 
+        I was ignorant of the fact the time and effort taken by Aaron to plan the truck and all
+         </p>
+         <h4>ALEC,GREEN POINT</h4>
+         <button type="button" class="btn bg-white mt-5 mb-5 tect-white">READ MORE</button>
+        
+        
+</div>
+</div>
+
+
+    
+</section>
+<footer>
+<div class=" mt-5 bg-dark">
+<footer class="page-footer font-small blue pt-4 mt-5 ">
+    <div class="container-fluid text-center text-md-left bg-dark p-5">
+  
+      <div class="row">
+        <div class="col-md-4 mt-3 text-white">
+  
+          <h5 class="text-uppercase">Head office</h5>
+          <p>A-25, Bahadurabad Chowrangi Karachi, Pakistan</p>
+          <i class="material-icons" style="font-size:20px; color: green;">call</i>UAN: 111-729-526<br>
+          <i class="material-icons" style="font-size:20px; color: green;">call</i>CELL: 92-311-1729526<br>
+          <i class="material-icons" style="font-size:20px; color: green;">call</i>USA NO +1(716)941 7792<br>
+          <i class="material-icons" style="font-size:20px; color: green;">call</i>UK NO (+44)115 970 6256<br>
+          <i class='far fa-envelope' style="font-size:20px; color: green;"></i> info@saylaniwelfare.com
+        </div>
+        <div class="col-md-4  mt-3 text-white">
+  
+          <h6 class="text-uppercase">Useful links</h6>
+          <hr class="bg-light">
+          </div>
+          <div class="col-md-4 mt-3 text-white">
+  
+            <h5 class="text-uppercase">connect with us</h5>
+            <div id="social">
+              <a class="facebookBtn smGlobalBtn" href="#" ></a>
+              <a class="twitterBtn smGlobalBtn" href="#" ></a>
+              <a class="googleplusBtn smGlobalBtn" href="#" ></a>
+              <a class="linkedinBtn smGlobalBtn" href="#" ></a>
+            </div>
+  
+        
+       </div>
+  
+      </div>
+     
+  
+    </div>
+  
+  
+  
+    <div class="footer-copyright text-center py-3 bg-primary">Copyright © 2020 Saylani Welfare
+      <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
+    </div>
+    </div>
+  
+  
+  </footer>
+  <!-- Footer -->
+    
+
+   
+</body>
+</html>
+
